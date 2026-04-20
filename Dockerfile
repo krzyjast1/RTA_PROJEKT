@@ -1,5 +1,5 @@
 # Nowoczesna i wspierana baza
-FROM quay.io/jupyter/pyspark-notebook:python-3.11
+FROM quay.io/jupyter/pyspark-notebook@sha256:50aaceb4f2f175a213b10c4eceb9f06d6774114750de9a06b074ed6d0fd25e83
 
 USER root
 
@@ -18,6 +18,7 @@ RUN wget -q https://archive.apache.org/dist/kafka/${KAFKA_VERSION}/kafka_${SCALA
     rm kafka_${SCALA_VERSION}-${KAFKA_VERSION}.tgz && \
     rm -rf /usr/local/kafka/bin/windows /usr/local/kafka/site-docs
 ENV PATH="$PATH:/usr/local/kafka/bin"
+
 # Instalacja Python packages (bez Torcha)
 RUN pip install --no-cache-dir --upgrade pip setuptools wheel && \
     pip install --no-cache-dir \
