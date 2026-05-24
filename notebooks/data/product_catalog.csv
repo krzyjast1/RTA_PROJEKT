@@ -1,0 +1,88 @@
+product_id,product_name,category,unit_price
+P001,Apple iPhone 15 Pro Max 256GB,smartfony,6499.00
+P002,Apple iPhone 15 128GB,smartfony,4299.00
+P003,Apple iPhone 14 128GB,smartfony,3499.00
+P004,Samsung Galaxy S24 Ultra 512GB,smartfony,6199.00
+P005,Samsung Galaxy S24 256GB,smartfony,4099.00
+P006,Samsung Galaxy A55 128GB,smartfony,1799.00
+P007,Google Pixel 8 Pro 256GB,smartfony,4499.00
+P008,Google Pixel 8 128GB,smartfony,2999.00
+P009,Xiaomi 14 512GB,smartfony,3899.00
+P010,Xiaomi Redmi Note 13 256GB,smartfony,1099.00
+P011,OnePlus 12 256GB,smartfony,3699.00
+P012,Motorola Edge 50 Pro,smartfony,1999.00
+P013,Nothing Phone 2 256GB,smartfony,2799.00
+P014,Sony Xperia 1 VI,smartfony,5999.00
+P015,Oppo Reno 11 256GB,smartfony,1699.00
+P016,Apple MacBook Air 13 M3 256GB,laptopy,5499.00
+P017,Apple MacBook Pro 14 M3 512GB,laptopy,9999.00
+P018,Dell XPS 13 Plus,laptopy,7499.00
+P019,Dell XPS 15 OLED,laptopy,9899.00
+P020,Lenovo ThinkPad X1 Carbon G12,laptopy,8999.00
+P021,Lenovo Legion 5 RTX4060,laptopy,5999.00
+P022,Asus ROG Zephyrus G14,laptopy,8499.00
+P023,Asus ZenBook 14 OLED,laptopy,4299.00
+P024,HP Spectre x360 14,laptopy,7299.00
+P025,HP Pavilion 15,laptopy,2799.00
+P026,Acer Swift 3,laptopy,2499.00
+P027,Microsoft Surface Laptop 5,laptopy,5299.00
+P028,Apple AirPods Pro 2 USB-C,sluchawki,1099.00
+P029,Apple AirPods 4,sluchawki,749.00
+P030,Sony WH-1000XM5,sluchawki,1599.00
+P031,Sony WF-1000XM5,sluchawki,1199.00
+P032,Bose QuietComfort Ultra,sluchawki,1799.00
+P033,Bose QuietComfort Earbuds,sluchawki,899.00
+P034,Sennheiser Momentum 4,sluchawki,1399.00
+P035,Samsung Galaxy Buds3 Pro,sluchawki,999.00
+P036,JBL Tune 770NC,sluchawki,399.00
+P037,JBL Live 660NC,sluchawki,549.00
+P038,Beats Studio Pro,sluchawki,1499.00
+P039,Jabra Elite 10,sluchawki,1049.00
+P040,Marshall Major V,sluchawki,599.00
+P041,Nothing Ear,sluchawki,649.00
+P042,Apple Watch Series 9 45mm,smartwatche,1999.00
+P043,Apple Watch Ultra 2,smartwatche,3699.00
+P044,Apple Watch SE 2 40mm,smartwatche,1199.00
+P045,Samsung Galaxy Watch 7 44mm,smartwatche,1499.00
+P046,Samsung Galaxy Watch Ultra,smartwatche,2899.00
+P047,Garmin Fenix 7,smartwatche,3299.00
+P048,Garmin Venu 3,smartwatche,1899.00
+P049,Garmin Forerunner 265,smartwatche,1799.00
+P050,Huawei Watch GT 4 46mm,smartwatche,1099.00
+P051,Amazfit GTR 4,smartwatche,799.00
+P052,Sony PlayStation 5 Slim,konsole,2199.00
+P053,Sony PlayStation 5 Digital,konsole,1899.00
+P054,Sony PlayStation 5 Pro,konsole,3999.00
+P055,Microsoft Xbox Series X,konsole,2299.00
+P056,Microsoft Xbox Series S,konsole,1399.00
+P057,Nintendo Switch OLED,konsole,1499.00
+P058,Nintendo Switch Lite,konsole,899.00
+P059,Valve Steam Deck OLED 1TB,konsole,2999.00
+P060,Anker PowerCore 10000,powerbanki,129.00
+P061,Anker 737 PowerBank 24000,powerbanki,499.00
+P062,Anker 622 MagGo 5000,powerbanki,199.00
+P063,Baseus Blade 20000 65W,powerbanki,279.00
+P064,Baseus Magnetic 10000,powerbanki,169.00
+P065,Xiaomi Power Bank 20000 50W,powerbanki,149.00
+P066,Samsung Power Bank 10000 25W,powerbanki,159.00
+P067,Belkin BoostCharge 10000,powerbanki,189.00
+P068,UGREEN 145W 25000,powerbanki,399.00
+P069,INIU PowerBank 20000,powerbanki,99.00
+P070,Apple MagSafe Charger,akcesoria,189.00
+P071,Kabel USB-C / USB-C 2m 100W,akcesoria,79.00
+P072,Ladowarka GaN 65W,akcesoria,149.00
+P073,Etui iPhone 15 Pro Silicone,akcesoria,99.00
+P074,Etui Samsung Galaxy S24,akcesoria,79.00
+P075,Szklo hartowane uniwersalne,akcesoria,39.00
+P076,Logitech MX Master 3S,akcesoria,449.00
+P077,Logitech MX Keys S,akcesoria,499.00
+P078,Podkladka pod mysz XL,akcesoria,89.00
+P079,Hub USB-C 7w1,akcesoria,159.00
+P080,Adapter USB-C na HDMI 4K,akcesoria,69.00
+P081,Stojak pod laptopa aluminiowy,akcesoria,119.00
+P082,Karta microSD 256GB,akcesoria,109.00
+P083,Dysk SSD 1TB NVMe,akcesoria,329.00
+P084,Kamera internetowa Logitech 1080p,akcesoria,259.00
+P085,Uchwyt samochodowy magnetyczny,akcesoria,59.00
+P086,Pendrive 128GB USB 3.2,akcesoria,49.00
+P087,Czytnik kart SD USB-C,akcesoria,45.00
