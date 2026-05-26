@@ -1,5 +1,5 @@
 # Nowoczesna i wspierana baza
-FROM quay.io/jupyter/pyspark-notebook:python-3.11
+FROM quay.io/jupyter/pyspark-notebook:spark-3.5.0
 
 USER root
 
