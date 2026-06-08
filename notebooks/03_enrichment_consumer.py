@@ -34,7 +34,7 @@ spark = (
 spark.sparkContext.setLogLevel("WARN")
 
 
-# Schema taka jak publikuje orders.py
+# Schema 
 
 item_schema = StructType([
     StructField("product_id", StringType()),
