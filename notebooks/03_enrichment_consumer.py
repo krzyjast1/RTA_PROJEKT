@@ -1,10 +1,10 @@
 """
-ZADANIE 3 – Enrichment Consumer
-Czyta surowe zamówienia z topiku `orders.raw`,
+ZADANIE 3-Enrichment Consumer
+Czyta surowe zamówienia z topiku "orders.raw",
 spłaszcza koszyk (1 wiersz = 1 produkt),
 wzbogaca o product_name, category, unit_price z katalogu CSV,
 liczy line_value = quantity * unit_price,
-publikuje na topik `orders.enriched`.
+publikuje na topik "orders.enriched".
 """
 
 from pyspark.sql import SparkSession
@@ -41,13 +41,7 @@ spark = (
 spark.sparkContext.setLogLevel("WARN")
 
 
-# Schema – dokładnie taka jak publikuje orders.py
-# {
-#   "order_id":  "...",
-#   "user_id":   "...",
-#   "timestamp": "2026-05-24T12:34:56Z",
-#   "items":     [{"product_id": "P001", "quantity": 2}, ...]
-# }
+# Schema taka jak publikuje orders.py
 
 item_schema = StructType([
     StructField("product_id", StringType()),
@@ -62,7 +56,7 @@ raw_schema = StructType([
 ])
 
 
-# Katalog produktów (statyczny – wczytany raz)
+# Katalog produktów (statyczny, wczytany raz)
 # Kolumny CSV: product_id, product_name, category, unit_price
 
 catalog_df = (
@@ -111,7 +105,7 @@ flat = (
 )
 
 
-# Wzbogacenie – join z katalogiem CSV
+# Wzbogacenie, czyli join z katalogiem CSV
 
 enriched = (
     flat
@@ -145,6 +139,6 @@ query = (
     .start()
 )
 
-print(f" Enrichment consumer działa")
+
 
 query.awaitTermination()
