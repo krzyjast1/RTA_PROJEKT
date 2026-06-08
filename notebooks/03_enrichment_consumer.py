@@ -1,11 +1,4 @@
-"""
-ZADANIE 3-Enrichment Consumer
-Czyta surowe zamówienia z topiku "orders.raw",
-spłaszcza koszyk (1 wiersz = 1 produkt),
-wzbogaca o product_name, category, unit_price z katalogu CSV,
-liczy line_value = quantity * unit_price,
-publikuje na topik "orders.enriched".
-"""
+
 
 from pyspark.sql import SparkSession
 from pyspark.sql.functions import (
