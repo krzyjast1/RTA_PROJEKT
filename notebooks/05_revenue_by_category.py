@@ -1,10 +1,3 @@
-"""
-ZADANIE 5 – Revenue per Category (okno 1 min, watermark)
-Czyta wzbogacone zamówienia z topiku `orders.enriched`,
-agreguje SUM(line_value) per category w tumbling window 1 min
-z watermarkiem 1 min,
-publikuje wyniki na topik `agg.revenue.by.category`.
-"""
 
 from pyspark.sql import SparkSession
 from pyspark.sql.functions import (
@@ -41,7 +34,7 @@ spark = (
 spark.sparkContext.setLogLevel("WARN")
 
 
-# Schema – dokładnie to co publikuje zadanie 3
+# Schema 
 
 enriched_schema = StructType([
     StructField("order_id",     StringType()),
@@ -77,7 +70,7 @@ parsed = (
 )
 
 
-# Watermark + agregacja w oknie 1 minuta
+# Watermark i agregacja w oknie 1 minuta
 
 agg = (
     parsed
@@ -109,10 +102,10 @@ query = (
     .option("kafka.bootstrap.servers", KAFKA_BROKER)
     .option("topic", TOPIC_OUTPUT)
     .option("checkpointLocation", CHECKPOINT_DIR)
-    .outputMode("update")   # emituje tylko zmienione okna
+    .outputMode("update")  
     .start()
 )
 
-print(f" Revenue aggregator działa")
+
 
 query.awaitTermination()
